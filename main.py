@@ -3,7 +3,6 @@ import PIL.Image
 import tensorflow as tf
 import numpy
 from sklearn.model_selection import train_test_split
-mnist = tf.keras.datasets.mnist
 
 SeznamRakSlik = numpy.zeros(shape=(84, 320, 320, 3))
 SeznamNeRakSlik = numpy.zeros(shape=(204, 320, 320, 3))
